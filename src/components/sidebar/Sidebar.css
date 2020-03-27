@@ -1,0 +1,28 @@
+.sidebar {
+    max-width: 500px;
+    display: inline-block;
+}
+
+.sidebar>ul {
+    list-style: none;
+    padding: 0px;
+    background: #f7f7f7;
+    margin:0px;
+}
+
+.sidebar>ul>li {
+    padding: 20px 0px 20px 10px;
+    font-size: 30px;
+    border-bottom: 1px solid;
+}
+
+.sidebar>ul>li.active{
+    color: #fff;
+    background: #43619d;
+}
+
+.sidebar ~ div {
+    height: 500px;
+    width: 60%;
+    display: inline-block;
+}
