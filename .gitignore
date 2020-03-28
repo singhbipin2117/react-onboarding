@@ -23,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .DS_Store
+
+
+# ignoring snapshot
+/src/__snapshots__/*
+/src/components/content/__snapshots__/*

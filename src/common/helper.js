@@ -3,13 +3,13 @@ export const getLocation = () => {
 
     return new Promise((resolve, reject) => {
         if (!geolocation) {
-            reject(console.log('Not Supported'));
+            reject('Not Supported');
         }
 
         geolocation.getCurrentPosition((position) => {
             resolve(position);
         }, () => {
-            reject(console.log('Permission denied'));
+            reject('Permission denied');
         });
     });
 };

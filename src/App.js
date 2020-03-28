@@ -11,7 +11,9 @@ class App extends React.Component {
       .then((data) => {
         this.setState({ latitude: data.coords.latitude, longitude: data.coords.longitude });
       })
-      .catch((error) => console.log(error));
+      .catch((error) => {
+        error
+      });
   }
   render() {
     const coords = this.state;
