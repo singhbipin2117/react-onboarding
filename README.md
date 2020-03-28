@@ -2,3 +2,7 @@
 - Change the directoy `cd react-onboarding`
 - `npm install`
 - `npm start`
+
+
+## Running test cases
+- `npm test`
